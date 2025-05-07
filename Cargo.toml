@@ -23,3 +23,4 @@ thiserror = "2.0.12"
 default = ["download-binaries", "copy-dylibs", "ort/default"]
 download-binaries = ["ort/download-binaries"]
 copy-dylibs = ["ort/copy-dylibs"]
+load-dynamic = ["ort/load-dynamic"]
